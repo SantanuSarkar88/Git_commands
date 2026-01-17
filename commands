@@ -1,4 +1,4 @@
-Commands-- pushing for first time
+#Commands-- pushing for first time
 git init
 git add . 
 git commit -m "first commit"
@@ -10,3 +10,9 @@ git push -u origin main
 git add .
 git commit -m "commit msg"
 git push
+
+#Extra commands:
+git branch: it will use to find list of branches
+git branch <branchname>: use to create new branch
+git checkout <branchname>: use to switch b/w branches
+git branch -d <branchname>: To delete the branch
