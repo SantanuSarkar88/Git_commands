@@ -1,0 +1,13 @@
+Static website hosting using windows server
+Staic webhosting through NGINX
+Static webhosting through APACHE
+Static Hosting using eleastic IP and Hibernation
+Server backup using snapshot
+mounting new volume to existing server using EBS
+Security group"Allowed specific IP addresses using SG and UI using user data".
+IAM create indivisual user, group, policies and attached it.
+Cloud watch"Attaching monitring for an instance and attach SNS 
+3tier MERN project using cloudfront,S3 , EC2, Security group.
+Auto scaling/Load balancer: Distributed traffic to multiple different servers 
+RDS: 2tier NODE /EJS project using RDS, mySQL,SQLelectron
+git and github: Branching, PR, merging, FORK, Static application hosting
