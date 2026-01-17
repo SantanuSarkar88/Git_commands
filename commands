@@ -16,3 +16,9 @@ git branch: it will use to find list of branches
 git branch <branchname>: use to create new branch
 git checkout <branchname>: use to switch b/w branches
 git branch -d <branchname>: To delete the branch
+git pull : to get all recent updates remote branch
+git merge <branchname> : to merge in local 
+git log
+git log --summary
+git log --oneline --summary
+git log --summary --stat : summary stats
