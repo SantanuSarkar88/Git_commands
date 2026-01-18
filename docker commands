@@ -1,0 +1,22 @@
+docker run hello world
+docker run nginx
+docker run -d nginx: run behind the screen
+
+docker ps: current running image
+docker ps -a : it means run all
+docker stop <container id> : to stop the container
+docker rm <contaninerid> : to delete the container
+docker rmi <imagename>
+docker images : to view list of all images 
+docker pull : image pull only.
+docker exec <image>  cat /etc/hosts
+
+
+#create a Docker file
+FROM ubuntu
+RUN apt-get update
+RUN apt-get install -y python
+RUN apt-get install python-pip
+RUN pip install flask
+COPY app.py /opt/app.py
+ENTRYPOINT FLASK_APP=app.py flask run --host=0.0.0.0
