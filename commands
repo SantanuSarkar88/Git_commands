@@ -6,6 +6,9 @@ git branch -M main
 git remote add origin https://github.com/SantanuSarkar88/Git_commands.git
 git push -u origin main
 
+#if you create any repo with read.me file there we need to run
+git pull origin main --allow-unrelated-histories
+
 #Commands for pushing code/file from 2nd time
 git add .
 git commit -m "commit msg"

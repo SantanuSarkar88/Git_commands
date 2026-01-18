@@ -3,13 +3,15 @@ docker run nginx
 docker run -d nginx: run behind the screen
 
 docker ps: current running image
-docker ps -a : it means run all
+docker ps -a : it means showing list of running all images
 docker stop <container id> : to stop the container
 docker rm <contaninerid> : to delete the container
 docker rmi <imagename>
 docker images : to view list of all images 
 docker pull : image pull only.
 docker exec <image>  cat /etc/hosts
+docker run . : To run the docker file
+docker build . 
 
 
 #create a Docker file
