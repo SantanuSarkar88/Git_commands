@@ -1,4 +1,17 @@
+#Git Configure: We need to configure the git with your github account--------
+----------------------------------------------------------------------------
+git config --global user.name "Santanu.Sarkar88"
+git config --global user.email "santanu8862@gmail.com
+git config --list
+
+
+
+
+
+
+
 #Commands-- pushing for first time
+------------------------------------
 git init
 git add . 
 git commit -m "first commit"
