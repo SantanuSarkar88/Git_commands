@@ -6,15 +6,11 @@ git config --list
 
 
 
-
-
-
-
 #Commands-- pushing for first time
 ------------------------------------
 git init
-git add . 
-git commit -m "first commit"
+git add . : To add (staged) the  changes
+git commit -m "first commit": To ready for commit the changes according to your like time, refrence
 git branch -M main
 git remote add origin https://github.com/SantanuSarkar88/Git_commands.git
 git push -u origin main
@@ -28,6 +24,10 @@ git commit -m "commit msg"
 git push
 
 #Extra commands:
+git clone
+git status
+git version
+git 
 git branch: it will use to find list of branches
 git branch <branchname>: use to create new branch
 git checkout <branchname>: use to switch b/w branches
