@@ -27,7 +27,6 @@ git push
 git clone
 git status
 git version
-git 
 git branch: it will use to find list of branches
 git branch <branchname>: use to create new branch
 git checkout <branchname>: use to switch b/w branches
