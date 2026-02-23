@@ -11,3 +11,8 @@ Cloud watch"Attaching monitring for an instance and attach SNS
 Auto scaling/Load balancer: Distributed traffic to multiple different servers 
 RDS: 2tier NODE /EJS project using RDS, mySQL,SQLelectron
 git and github: Branching, PR, merging, FORK, Static application hosting
+Docker Project: Registery project
+Terraform: S3 Bucket.
+Jenkins : Python3 code execution
+AWS lamda: Image resizer using auto trriger of Lambda & S3
+AWS and Devops: Enterprise level 3 tier Project[tech_stack_MERN]
